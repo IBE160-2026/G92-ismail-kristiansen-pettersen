@@ -58,17 +58,35 @@ The MVP serves higher-education students using their own curriculum material. Le
 
 ## What Makes This Different
 
-No specific differentiator is defined by the assignment beyond providing the specified study resources from uploaded curriculum material.
+*Draft — for team review. No specific differentiator is defined by the assignment; the comparison below is a proposed starting point, not a confirmed team decision.*
 
-**Undecided:** Whether the team will define a product differentiator later.
+| Alternative today | Why students tolerate it | Why AI Study Buddy is better |
+|---|---|---|
+| Manual note review and highlighting | Free, no new tool to learn, full control over the material | Automates the structuring step: turns raw uploaded material directly into summaries, flashcards, and quiz questions instead of requiring manual rework |
+| General-purpose AI chatbots (e.g. ChatGPT) | Already available and flexible | Not built for a repeatable study workflow — no dedicated flashcard/quiz output format and no consistent source/page referencing; the student has to rebuild the workflow by hand every time |
+| Flashcard/quiz apps (e.g. Anki, Quizlet) | Purpose-built for flashcards and quizzes, familiar habit | Requires the student to author the content first; AI Study Buddy generates that content directly from their own uploaded course material |
+| Study groups / shared peer notes | Social, low cost, no tool needed | Depends on peer availability and quality, and does not scale to arbitrary course material on demand |
 
-Confirmed capabilities and MVP constraints are not a defined differentiator.
+**Primary user, in one sentence:** A higher-education student who uploads their own lecture notes or slides and wants a structured, source-referenced set of study material (summary, flashcards, quiz questions, key concepts) without manually reorganizing it themselves.
+
+**Honesty note:** the advantage here is a tighter, purpose-built workflow and source-grounded output (page/section references), not a defensible moat — any of the alternatives above could add similar AI features over time.
+
+**Still undecided:** whether the team confirms this comparison, or defines a different/additional differentiator once the MVP is built and tested.
 
 ## Success Criteria
 
 The MVP is functionally complete when a student can provide the confirmed inputs and receive every assignment-specified output type: summaries, flashcards, quiz questions and answers, key concepts, and source or page references. Providing source or page references is itself a confirmed success criterion.
 
-**Undecided:** specific standards for output usefulness, correctness, relevance, usability, reliability, processing time, privacy, and security beyond the stated conditional login/security requirement.
+*Draft — for team review. Targets below are proposed starting points, not confirmed standards.*
+
+| Signal | Metric / evidence | Target (proposed) | When measured |
+|---|---|---|---|
+| User outcome | Student produces a usable set of outputs (summary, flashcards, quiz Q&A, key concepts, references) from one uploaded file without manual rework | All confirmed output types generated per upload, with no manual restructuring needed | MVP demo / walkthrough |
+| Adoption / behavior | A test student completes a full upload → output cycle unassisted | Student completes the cycle without needing help from the team | Usability check with a few target students before submission |
+| Quality / trust | Generated summaries, flashcards, and quiz answers correctly cite the source page or section they were derived from | Every output includes a source/page reference; spot-checked outputs are consistent with the source material | Manual review across at least a few different uploaded documents |
+| Business / mission | Prototype meets the IBE160 assignment requirements | All assignment-specified inputs and outputs work end-to-end | Before submission deadline |
+
+**Undecided:** specific numeric standards for output usefulness, correctness, relevance, usability, reliability, processing time, privacy, and security beyond the stated conditional login/security requirement. The targets above are proposed as a starting point for the team to confirm, tighten, or replace.
 
 ## MVP Scope
 
@@ -83,7 +101,15 @@ Explicitly out of scope:
 
 ## Vision
 
-**Undecided beyond the course-project MVP.** No future direction, roadmap, or future feature set has been confirmed.
+*Draft — for team review. Grounded in the confirmed problem, users, and MVP value; not a confirmed team decision.*
+
+**Now:** Prove that a student can turn one uploaded set of course material into a complete, source-referenced set of study outputs (summary, flashcards, quiz Q&A, key concepts) without manually restructuring it first.
+
+**Next:** Expand from single-file, single-session use toward combining multiple files for one course or topic, saving output history so a student can return to material they already generated, and refining output quality based on real student feedback.
+
+**2-3 years:** If the core workflow proves valuable, AI Study Buddy could grow into a study companion students return to across a whole course or semester — combining material from multiple lectures into cohesive study sets, tracking which concepts a student has already reviewed, and surfacing gaps before an exam. This stays grounded in the same problem (turning raw course material into structured, trustworthy study support) rather than expanding into unrelated territory such as course administration or a content marketplace — both already out of scope.
+
+**Undecided:** whether the team adopts this direction, or defines a different vision once the MVP is built and tested.
 
 ## Open Decisions
 
