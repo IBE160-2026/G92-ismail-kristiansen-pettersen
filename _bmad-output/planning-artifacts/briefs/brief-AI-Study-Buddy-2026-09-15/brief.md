@@ -46,16 +46,6 @@ AI Study Buddy is a web app that accepts the confirmed curriculum-material input
 - Whether outputs are saved for later access.
 - Whether one or multiple uploaded files can be combined into a single set of outputs.
 
-## Who This Serves
-
-The MVP serves higher-education students using their own curriculum material. Lecturers and administrators are out of scope.
-
-**Undecided:**
-
-- Whether use beyond individual student use is intended.
-- Whether students can share source material or generated resources with each other.
-- The specific user outcome that defines a useful single use of the product.
-
 ## What Makes This Different
 
 *Draft — for team review. No specific differentiator is defined by the assignment; the comparison below is a proposed starting point, not a confirmed team decision.*
@@ -72,6 +62,16 @@ The MVP serves higher-education students using their own curriculum material. Le
 **Honesty note:** the advantage here is a tighter, purpose-built workflow and source-grounded output (page/section references), not a defensible moat — any of the alternatives above could add similar AI features over time.
 
 **Still undecided:** whether the team confirms this comparison, or defines a different/additional differentiator once the MVP is built and tested.
+
+## Who This Serves
+
+The MVP serves higher-education students using their own curriculum material. Lecturers and administrators are out of scope.
+
+**Undecided:**
+
+- Whether use beyond individual student use is intended.
+- Whether students can share source material or generated resources with each other.
+- The specific user outcome that defines a useful single use of the product.
 
 ## Success Criteria
 
